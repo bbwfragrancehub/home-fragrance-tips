@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Fragrance Tips - Create Inviting Spaces</title>
+<style>
+:root {
+    --primary: #2c1a4a;
+    --secondary: #6a1b9a;
+    --accent: #d69a2d;
+    --light: #f8f5fc;
+    --dark: #1a1a2e;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+body { background-color: var(--light); color: var(--dark); line-height: 1.6; width: 100% !important; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+.logo { font-size: 24px; font-weight: bold; color: var(--secondary); }
+nav a { margin-left: 20px; text-decoration: none; color: var(--dark); font-weight: 500; }
+nav a:hover { color: var(--accent); }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    padding: 60px 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+.hero p { font-size: 1.1rem; margin-bottom: 15px; max-width: 600px; }
+.cta-button {
+    display: inline-block;
+    background-color: var(--secondary);
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.cta-button:hover { background: linear-gradient(135deg, var(--secondary), var(--accent)); }
+
+.tips-section { margin: 60px 0; }
+.tips-section h2 { text-align: center; color: var(--primary); margin-bottom: 30px; }
+.tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+
+.tip-card {
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: var(--dark);
+}
+.tip-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.12); }
+.tip-card h3 { margin-bottom: 15px; color: var(--primary); }
+
+.tip-card.welcome { background: linear-gradient(135deg, #ffefba, #ffffff); }
+.tip-card.seasonal { background: linear-gradient(135deg, #c9ffbf, #ffafbd); }
+.tip-card.bedroom { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+
+.promo-section {
+    text-align: center;
+    margin: 60px 0;
+    padding: 50px 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--light), rgba(214,154,45,0.15));
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-top: 1px solid var(--primary);
+    color: var(--dark);
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 2rem; }
+    .tips-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+    <div class="logo">ScentHome</div>
+    <nav></nav>
+</header>
+
+<section class="hero">
+    <h1>Home Fragrance Tips</h1>
+    <p>Create inviting spaces with scent that transforms your home into a sanctuary. Discover how to use fragrance to enhance every room and occasion.</p>
+    <p>Try our free sample kit to experience our premium fragrances firsthand.</p>
+    <a href="https://rebrand.ly/bbw-free-samples" class="cta-button" target="_blank">Get Your Free Samples</a>
+</section>
+
+<section class="tips-section">
+    <h2>Expert Tips for Home Fragrance</h2>
+    <div class="tips-grid">
+        <div class="tip-card welcome">
+            <h3>Welcome Guests</h3>
+            <p>Place a subtle fragrance in your entryway to create a welcoming first impression for visitors.</p>
+        </div>
+        <div class="tip-card seasonal">
+            <h3>Seasonal Scents</h3>
+            <p>Rotate fragrances with the seasons - light florals for spring, fresh citrus for summer, warm spices for fall, and cozy woods for winter.</p>
+        </div>
+        <div class="tip-card bedroom">
+            <h3>Bedroom Bliss</h3>
+            <p>Use calming scents like lavender or chamomile in bedrooms to promote relaxation and better sleep.</p>
+        </div>
+    </div>
+</section>
+
+<section class="promo-section">
+    <h2>Find Your Signature Scent</h2>
+    <p>Not sure which fragrance is right for your home? Our free sample kit lets you experience our most popular scents before committing to a full-size product.</p>
+    <a href="https://rebrand.ly/bbw-free-samples" class="cta-button" target="_blank">Request Free Samples</a>
+</section>
+
+<footer>
+    <p>Note: This is not the official Bath & Body Works website. This page provides links to Bath & Body Works samples through an affiliate program. Availability of free samples may vary and are subject to change without notice.</p>
+</footer>
+
+</div>
+</body>
+  </html>
